@@ -1,4 +1,13 @@
 {
-	"precision": 5,
-	"port": 8000
+	"precision": 6,
+	"port": 80,
+	"channels": [
+		{ "i": 0, "label": "MOTTA", "background": "#B00", "target_THz": 384.227894},
+		{ "i": 2, "label": "Stabilization Laser", "background": "#E70", "target_THz": 389.267115},
+		{ "i": 3, "label": "Probe", "background": "#B00", "target_THz": 384.228265},
+		{ "i": 4, "label": "RydTA", "background": "#00B", "target_THz": 312.493757},
+		{ "i": 5, "label": "Blaub&auml;r", "background": "#00F", "target_THz": 312.517873},
+		{ "i": 6, "label": "Major Tom (Raman)", "background": "#802", "target_THz": 377.100786},
+		{ "i": 7, "label": "Repump", "background": "#B00", "target_THz": 384.234593}
+	]
 }

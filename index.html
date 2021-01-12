@@ -37,6 +37,9 @@
             {% else %}
                 <div class="label">Channel {{channel["i"]+1}}:</div>
             {% end %}
+			{% if "target_THz" in channel %}
+				<div class="label">{{channel["target_THz"]}} THz</div>
+			{% end %}
                 <div id='wl{{channel["i"]}}' class="data"></div>
             </div>
         {% end %}
